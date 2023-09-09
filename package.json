@@ -1,0 +1,18 @@
+{
+  "name": "forkify-master",
+  "version": "1.0.0",
+  "description": "This application for the recipe for the fast food",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Talha chatha",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.32.1",
+    "fractional": "^1.0.0",
+    "parcel": "^2.9.3",
+    "regenerator-runtime": "^0.14.0"
+  }
+}
